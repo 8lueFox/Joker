@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{76A4D31F-51B1-49D6-BF5A-14595EA7ECBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Joker.Identity.Core", "src\Identity\Joker.Identity.Core\Joker.Identity.Core.csproj", "{36AB2AC0-AE80-4C68-8119-E01E94686EB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{F126C7E8-35FA-4073-98EF-1A4E21A4BD8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{7991AAE0-F872-4105-8B3B-675789BCFBAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Joker.Framework", "Framework\Joker.Framework\Joker.Framework.csproj", "{3571A960-5178-4121-A570-83C5EE1ED6DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36AB2AC0-AE80-4C68-8119-E01E94686EB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36AB2AC0-AE80-4C68-8119-E01E94686EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36AB2AC0-AE80-4C68-8119-E01E94686EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36AB2AC0-AE80-4C68-8119-E01E94686EB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3571A960-5178-4121-A570-83C5EE1ED6DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3571A960-5178-4121-A570-83C5EE1ED6DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3571A960-5178-4121-A570-83C5EE1ED6DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3571A960-5178-4121-A570-83C5EE1ED6DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{36AB2AC0-AE80-4C68-8119-E01E94686EB8} = {F126C7E8-35FA-4073-98EF-1A4E21A4BD8E}
+		{F126C7E8-35FA-4073-98EF-1A4E21A4BD8E} = {76A4D31F-51B1-49D6-BF5A-14595EA7ECBB}
+		{3571A960-5178-4121-A570-83C5EE1ED6DD} = {7991AAE0-F872-4105-8B3B-675789BCFBAA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC246C63-ADF2-451E-A49E-0F62FB945106}
+	EndGlobalSection
+EndGlobal
